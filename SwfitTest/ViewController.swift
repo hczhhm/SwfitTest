@@ -105,7 +105,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
     }()
     @objc func clickAction(button:UIButton) -> Void {
-//        label.text = "点击"
          self.loadData()
     
     }
@@ -157,7 +156,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
       return headerView
     }
     
-    //TODO: 需要提醒的文字
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
